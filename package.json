@@ -1,0 +1,26 @@
+{
+  "name": "lab-06-node-npm-express",
+  "version": "1.0.0",
+  "description": "city explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreychang808/lab-06-node-npm-express.git"
+  },
+  "keywords": [
+    "city",
+    "explorer"
+  ],
+  "author": "corey bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreychang808/lab-06-node-npm-express/issues"
+  },
+  "homepage": "https://github.com/coreychang808/lab-06-node-npm-express#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
