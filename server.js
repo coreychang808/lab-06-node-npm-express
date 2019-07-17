@@ -68,17 +68,17 @@ function getWeather(req, res) {
     })
 }
 
-// function getMovies(req, res) {
-//   const moviedbUrl = ``
-// }
+function getMovies(req, res) {
+  // const moviedbUrl = ``
+}
 
-// function getYelp(req, res) { 
-//   const darkskyUrl =  `https://api.yelp.com/v3/businesses/search?search?term=restaurants&latitude=47.6062095&longitude=-122.3320708`;
-// }
+function getYelp(req, res) { 
+  const darkskyUrl =  `https://api.yelp.com/v3/businesses/search?search?term=restaurants&latitude=47.6062095&longitude=-122.3320708`;
+}
 
-// function getHiking(req, res) { 
+function getHiking(req, res) { 
   
-// }
+}
 
 function getEvents(req, res) { 
   const eventbriteUrl = `https://www.eventbriteapi.com/v3/events/search?location.longitude=${req.query.data.longitude}&location.latitude=${req.query.data.latitude}&token=${process.env.EVENTBRITE_API_KEY}`;
